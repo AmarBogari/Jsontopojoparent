@@ -1,0 +1,4 @@
+{
+		"javaInterfaces" : ["java.io.Serializable", "Cloneable"],
+        "type" : "object"
+  }

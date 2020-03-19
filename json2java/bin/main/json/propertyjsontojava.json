@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "stringproperty": { "type": "string" },
+    "intproperty": { "type": "integer" },
+    "numberproperty": { "type": "number" },
+    "booleanproperty": {	"type":	"boolean" },
+    "objectproperty": { "type": "object" },
+    "listproperty": { "type": "array", "items": "string" },
+    "setproperty":{ "type": "array", "items": "string",  "uniqueItems":true, "required": true },
+    "requiredproperty": { "type": "string", "required": true },
+    "optionalproperty": { "type": "string","optional": true },
+    "nullobjectproperty": { "type": "null"},
+    "anyobjectproperty": { "type": "any"},    
+    "defaultvalueproperty":  { "type": "string","default":"defaultvalue" },
+    "excludedFromEqualsAndHashCodeproperty":  { "type": "string","excludedFromEqualsAndHashCode" : true }, 
+    "enumproperty" : { "type" : "string", "enum" : ["one", "two", "three"] },
+    "enumjavaproperty" : { "type" : "integer", "enum" : ["1", "2", "3"],"javaEnumNames" : ["ONE","TWO","THREE"] }
+
+  }
+
+}

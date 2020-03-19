@@ -1,0 +1,7 @@
+{
+        "javaType" : "json2java.CustomTypeName",
+        "type" : "object",
+        "additionalProperties" : {
+            "type" : "number"
+        }
+ }

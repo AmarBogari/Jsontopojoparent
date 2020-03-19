@@ -1,0 +1,5 @@
+{
+        "type" : "object",
+        "extends" : {   "$ref" : "propertyjsontojava.json"       },
+        "properties" : { "address": {  "$ref" : "customclassname.json"    }   }
+  }

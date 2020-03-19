@@ -1,0 +1,14 @@
+{
+	    "type" : "object",
+         "properties" : {
+          "a": {      "javaName": "b",    
+           		 "type": "string"    },
+         "myProperty" : {
+                "javaType" : "json2java.CustomChildName",
+                "type" : "object"
+            },  "map" : {
+                "existingJavaType" : "java.util.Map<String,Integer>",
+                "type" : "object"
+            }
+   	 }
+  }
