@@ -11,7 +11,7 @@
 **1. Clone the application**
 
 ```bash
-git clone https://gitlab.mynisum.com/abogari/json2pojoconverter.git
+git clone https://github.com/AmarBogari/Jsontopojoparent.git
 ```
 
 **2. Build the application using gradle**
